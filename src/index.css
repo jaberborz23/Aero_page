@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.is-active{
+ color:rgba(234, 88, 12, 1)!important;
+}
+.scroll-to-top{
+    background-color: gray !important;
+    border-radius: 50% !important;
+}
+.scroll-to-top svg{
+ margin-left: 6px !important;
+ 
+ 
+}
