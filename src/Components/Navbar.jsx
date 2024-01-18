@@ -17,9 +17,9 @@ let handleShow = ()=> {
         <div className="max-w-container mx-auto">
      <div className="flex  justify-between items-center fixed w-full z-[10]">
 
-    <div className="w-1/2">
+    <div className="w-1/2 ">
       
-      <img src={logo}  alt="logo" />
+      <img src={logo} className='w-full'  alt="logo" />
      
     
     </div>
@@ -32,7 +32,7 @@ let handleShow = ()=> {
                     headerBackground="true"
                 > 
     
-  <ul className={`lg:flex  gap-x-6 items-center  absolute left-0 top-0 lg:static  ${show == true ? " top-[120px] sm:top-[200px] xxs:top-[60px]  md:top-[120px] left-0 w-full bg-[#000] gap-y-[14px]  transition duration-300 ease-in-out py-4 text-center z-[100]" : "top-[-370px] w-full left-0 transition duration-300 ease-in-out "}    `}>
+  <ul className={`lg:flex sm:flex sm:px-[30px]  gap-x-6 items-center  absolute left-0 top-0 lg:static  ${show == true ? " top-[70px] sm:top-[80px] xxs:top-[60px]  md:top-[80px] left-0 w-full bg-[#000] gap-y-[14px]  transition duration-300 ease-in-out py-4 text-center z-[100]" : "top-[-370px] w-full left-0 transition duration-300 ease-in-out "}    `}>
    <li> <a className='font-re font-medium leading-[28px] lg:text-bl  text-[white]      ' href="#fuel">Home</a> </li>
    <li> <a href="#deploy" className='font-ab font-[400] leading-[18.91px] lg:text-bl text-[white]  '>About</a> </li>
    <li> <a href="#nav" className='font-ab font-[400] leading-[18.91px] lg:text-bl text-[white]  '     > Service</a></li>
@@ -55,7 +55,9 @@ let handleShow = ()=> {
     </div>
     <div className=" lg:hidden mx-3" onClick={handleShow}>
 
-{show ==true ? <FaBars /> : <RxCross1 /> }
+{show ==true ? <RxCross1 /> : <FaBars />  }
+
+
 
 </div>
   

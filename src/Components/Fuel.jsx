@@ -8,10 +8,10 @@ const Fuel = () => {
       <div className="max-w-container mx-auto">
 
       <div className="flex flex-wrap  items-center ml-3">
-        <div className="w-[60%] ">
+        <div className="sm:w-[60%] xxs:w-full ">
 
 
-          <div className="flex xl:w-[20%] lg:w-[30%] sm:w-[40%] xxs:w-[80%] md:w-[35%] w-full items-center gap-x-1 border-[1px] bg-transparent lg:p-[10px] p-2 rounded-[20px] hover:bg-[white]  ">
+          <div className="flex xl:w-[20%] lg:w-[30%] sm:w-[40%]  xxs:w-[45%] md:w-[35%] w-full items-center gap-x-1 border-[1px] bg-transparent lg:p-[10px] p-2 rounded-[20px] hover:bg-[white]  ">
           <FaRegBell />
           <h6 className='font-ab font-[400] text-[15px] xxxs:text-[10px] lg:text-[16px] lg:leading-[18.91px] text-[rgba(0,0,0,1)]'>Startup Business</h6>
 
@@ -29,7 +29,7 @@ const Fuel = () => {
 
         </div>
 
-        <div className="w-[40%]">
+        <div className="sm:w-[40%] xxxs:w-full xxxs:mt-4">
 
 
           <img src={hero} className='w-full' alt="hero" />
